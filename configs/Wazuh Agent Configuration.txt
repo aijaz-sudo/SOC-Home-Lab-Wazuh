@@ -1,0 +1,30 @@
+# Wazuh Agent Configuration
+
+Agent Name: win10-agent
+
+Operating System: Windows 10
+
+Wazuh Agent Installed Location:
+C:\Program Files (x86)\ossec-agent
+
+Sysmon Configuration Location:
+C:\Tools\Sysmon\sysmonconfig-export.xml
+
+Wazuh Agent Service: WazuhSvc
+
+Manager IP:
+192.168.56.103
+
+Status:
+Active and connected to Wazuh SIEM.
+
+Enabled Monitoring:
+
+* Windows Event Logs
+* Sysmon Operational Logs
+* File Integrity Monitoring
+* Security Configuration Assessment
+* Endpoint Telemetry Collection
+
+Purpose:
+Configured Wazuh Agent on Windows 10 endpoint for centralized log collection, endpoint monitoring, Sysmon telemetry forwarding, and security event monitoring using Wazuh SIEM.

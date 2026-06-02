@@ -1,0 +1,49 @@
+# Nmap Attack Simulation
+
+## Objective
+
+Performed network scanning from Kali Linux against the Windows 10 endpoint to generate detectable security events and alerts inside the Wazuh SIEM environment.
+
+
+
+# Basic Nmap Scan
+
+```bash id="6jlwmu"
+nmap WINDOWS10-IP
+```
+
+Purpose:
+
+* Discover live host
+* Identify open ports
+* Generate detectable network activity
+
+
+
+# Advanced Nmap Scan
+
+```bash id="4jlwme"
+nmap -A WINDOWS10-IP
+```
+
+Purpose:
+
+* Service detection
+* OS detection
+* Version enumeration
+* Aggressive scanning techniques
+
+
+
+# Detection Results
+
+* Wazuh successfully detected network scanning activity.
+* Security alerts were generated inside the Wazuh dashboard.
+* Threat hunting logs captured endpoint and network telemetry.
+* Sysmon and Wazuh agent logs confirmed monitoring functionality.
+
+
+
+# Outcome
+
+Successfully simulated reconnaissance activity within the SOC home lab environment and validated SIEM detection capabilities using Wazuh and Sysmon.

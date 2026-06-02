@@ -1,0 +1,37 @@
+# SOC Home Lab Findings
+
+## Key Findings
+
+* Successfully deployed Wazuh SIEM inside Oracle VirtualBox.
+* Connected Windows 10 endpoint using Wazuh Agent.
+* Installed Sysmon for advanced endpoint telemetry and monitoring.
+* Generated process creation logs using Windows commands.
+* Simulated attacks using Kali Linux and Nmap.
+* Observed security alerts inside Wazuh dashboard.
+* Performed threat hunting using Sysmon logs and security events.
+
+
+
+# Detections Observed
+
+* Process creation events
+* Sysmon operational logs
+* Network scan activity
+* Endpoint telemetry events
+* Security alerts in Wazuh
+
+
+
+# Lessons Learned
+
+* Learned SIEM deployment using Wazuh.
+* Understood endpoint monitoring workflow.
+* Practiced attack simulation and threat hunting.
+* Gained experience with blue team operations and SOC analysis.
+* Improved understanding of security event monitoring and log analysis.
+
+
+
+# Conclusion
+
+The SOC home lab successfully demonstrated practical SOC analyst workflows including monitoring, detection, attack simulation, alert analysis, and threat hunting using Wazuh and Sysmon.
